@@ -7,7 +7,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "deploy": "sudo ./deploy.sh"
   },
   "devDependencies": {
     "@astrojs/renderer-solid": "^0.2.0",
@@ -16,6 +17,9 @@
     "vite-plugin-vsharp": "^1.1.4"
   },
   "dependencies": {
-    "astro-seo": "^0.4.2"
+    "astro-seo": "^0.4.2",
+    "polished": "^4.1.3",
+    "potrace": "^2.1.8",
+    "solid-styled-components": "^0.27.3"
   }
 }
